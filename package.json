@@ -1,7 +1,6 @@
 {
   "name": "purchaseproduct-tests",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +8,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^5.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.4.5",
+    "cypress": "^5.1.0",
+    "webpack": "^4.44.1"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DieroKreator/puchaseproduct-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DieroKreator/puchaseproduct-tests/issues"
+  },
+  "homepage": "https://github.com/DieroKreator/puchaseproduct-tests#readme",
+  "description": ""
 }
